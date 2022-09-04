@@ -4,7 +4,7 @@ on: [push]
 env:
   TAG_NAME: 6.3.0
   IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/ansible
-  ARTIFACT_NAME: ansible-container-image
+  ARTIFACT_NAME: ansible
 
 jobs:
   build:
